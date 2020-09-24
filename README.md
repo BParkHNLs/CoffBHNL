@@ -4,6 +4,13 @@
 
 ### Installation
 
+```
+git clone https://github.com/BParkHNLs/CoffBHNL.git
+cd CoffBHNL
+```
+
+Install coffea within:
+
 Followed the installation instructions for developers, in case changes to the code are needed
 ```
 conda activate coffea
@@ -13,9 +20,10 @@ cd coffea
 pip install --editable .
 ```
 
-Working on a stable version, v0.6.44 for now. Later update will have to be pulled in our fork
+Working on a stable version, v0.6.44 for now. Later updates of the central repo will have to be pulled to our fork
 ```
-git checkout -b ver0644 b531e529c64b446efd694917b69dd17e8c087fe1
+##git checkout -b ver0644 b531e529c64b446efd694917b69dd17e8c087fe1
+git checkout mg-ver0644
 ```
 
 
